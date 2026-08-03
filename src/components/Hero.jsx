@@ -1,6 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { Download, ArrowRight, Github, Linkedin, Mail } from 'lucide-react';
+import { Download, ArrowRight, Mail } from 'lucide-react';
+import { FaGithub, FaLinkedin } from 'react-icons/fa';
 import { Link } from 'react-scroll';
 
 const Hero = () => {
@@ -42,10 +43,10 @@ const Hero = () => {
           
           <div className="flex items-center justify-center md:justify-start space-x-5">
             <a href="https://github.com/mohamedamineaitsalah" target="_blank" rel="noopener noreferrer" className="text-slate-500 hover:text-primary dark:text-slate-400 dark:hover:text-accent transition-colors">
-              <Github size={24} />
+              <FaGithub size={24} />
             </a>
             <a href="https://www.linkedin.com/in/mohamed-amine-ait-salah-b6574338b" target="_blank" rel="noopener noreferrer" className="text-slate-500 hover:text-primary dark:text-slate-400 dark:hover:text-accent transition-colors">
-              <Linkedin size={24} />
+              <FaLinkedin size={24} />
             </a>
             <a href="mailto:moahmedamineaitsalah02@gmail.com" className="text-slate-500 hover:text-primary dark:text-slate-400 dark:hover:text-accent transition-colors">
               <Mail size={24} />

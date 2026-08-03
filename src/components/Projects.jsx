@@ -1,16 +1,17 @@
 import React from 'react';
 import Section from './Section';
-import { ExternalLink, Github } from 'lucide-react';
+import { ExternalLink } from 'lucide-react';
+import { FaGithub } from 'react-icons/fa';
 
 const Projects = () => {
   const projects = [
     {
-      title: 'QR Attendance System',
-      description: 'A complete attendance tracking system using QR codes. Built to streamline the check-in process for events and classes with real-time tracking.',
+      title: 'MOHAMED AM - Project 1',
+      description: 'A professional website to showcase projects, skills, and resume to potential clients and recruiters.',
       image: 'https://images.unsplash.com/photo-1555066931-4365d14bab8c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
-      technologies: ['React', 'Node.js', 'Express', 'MongoDB'],
-      liveLink: 'https://qr-attendance-production-d78a.up.railway.app/',
-      githubLink: '#'
+      technologies: ['HTML5', 'CSS3', 'JavaScript'],
+      liveLink: 'https://mohamedamineaitsalah.github.io/MOHAMED_AM/',
+      githubLink: 'https://github.com/mohamedamineaitsalah/MOHAMED_AM'
     },
     {
       title: 'Personal Portfolio Prototype',
@@ -68,7 +69,7 @@ const Projects = () => {
                     rel="noopener noreferrer" 
                     className="flex items-center text-sm font-bold text-slate-700 dark:text-slate-300 hover:text-primary dark:hover:text-accent transition-colors"
                   >
-                    <Github size={16} className="mr-1" /> Code
+                    <FaGithub size={16} className="mr-1" /> Code
                   </a>
                 )}
               </div>

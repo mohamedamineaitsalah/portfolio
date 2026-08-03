@@ -35,8 +35,8 @@ const Navbar = ({ darkMode, setDarkMode }) => {
   return (
     <header className={`fixed w-full top-0 z-50 transition-all duration-300 ${scrolled ? 'glass py-3 shadow-md' : 'py-5 bg-transparent'}`}>
       <div className="max-w-7xl mx-auto px-6 md:px-12 flex justify-between items-center">
-        <div className="text-2xl font-bold text-primary dark:text-accent cursor-pointer">
-          <Link to="hero" smooth={true} duration={500}>MAS<span className="text-accent dark:text-primary">.</span></Link>
+        <div className="text-xl md:text-2xl font-bold text-primary dark:text-accent cursor-pointer">
+          <Link to="hero" smooth={true} duration={500}>MOHAMED AMINE AIT SALAH</Link>
         </div>
 
         {/* Desktop Nav */}
