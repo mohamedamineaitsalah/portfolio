@@ -3,6 +3,7 @@ import { motion } from 'framer-motion';
 import { Download, ArrowRight, Mail } from 'lucide-react';
 import { FaGithub, FaLinkedin } from 'react-icons/fa';
 import { Link } from 'react-scroll';
+import photo from '../assets/photo.jpg';
 
 const Hero = () => {
   return (
@@ -66,7 +67,7 @@ const Hero = () => {
             <div className="w-full h-full rounded-full overflow-hidden border-4 border-white dark:border-slate-800 shadow-2xl relative z-10 bg-slate-200 dark:bg-slate-800 flex items-center justify-center">
               {/* Replace with actual image later */}
               <span className="text-slate-400 text-lg">Photo goes here</span>
-              <img src="/photo.jpg" alt="Mohamed Amine Ait Salah" className="w-full h-full object-cover absolute inset-0 hidden" onError={(e) => e.target.classList.add('hidden')} onLoad={(e) => e.target.classList.remove('hidden')} />
+              <img src={photo} alt="Mohamed Amine Ait Salah" className="w-full h-full object-cover absolute inset-0 hidden" onError={(e) => e.target.classList.add('hidden')} onLoad={(e) => e.target.classList.remove('hidden')} />
             </div>
             
             {/* Floating badges */}
