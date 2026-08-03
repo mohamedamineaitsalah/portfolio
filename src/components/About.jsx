@@ -6,7 +6,7 @@ const About = () => {
   const details = [
     { icon: <User className="text-primary dark:text-accent" size={20} />, label: 'Name', value: 'Mohamed Amine Ait Salah' },
     { icon: <MapPin className="text-primary dark:text-accent" size={20} />, label: 'Location', value: 'Casablanca, Morocco' },
-    { icon: <Mail className="text-primary dark:text-accent" size={20} />, label: 'Email', value: 'moahmedamineaitsalah02@gmail.com' },
+    { icon: <Mail className="text-primary dark:text-accent" size={20} />, label: 'Email', value: 'mohamedamineaitsalah02@gmail.com' },
     { icon: <Phone className="text-primary dark:text-accent" size={20} />, label: 'WhatsApp', value: '+212 697936897' },
   ];
 

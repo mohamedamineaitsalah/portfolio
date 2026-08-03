@@ -49,7 +49,7 @@ const Hero = () => {
             <a href="https://www.linkedin.com/in/mohamed-amine-ait-salah-b6574338b" target="_blank" rel="noopener noreferrer" className="text-slate-500 hover:text-primary dark:text-slate-400 dark:hover:text-accent transition-colors">
               <FaLinkedin size={24} />
             </a>
-            <a href="mailto:moahmedamineaitsalah02@gmail.com" className="text-slate-500 hover:text-primary dark:text-slate-400 dark:hover:text-accent transition-colors">
+            <a href="mailto:mohamedamineaitsalah02@gmail.com" className="text-slate-500 hover:text-primary dark:text-slate-400 dark:hover:text-accent transition-colors">
               <Mail size={24} />
             </a>
           </div>

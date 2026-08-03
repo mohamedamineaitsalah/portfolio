@@ -14,13 +14,13 @@ const Contact = () => {
           </p>
           
           <div className="space-y-4">
-            <a href="mailto:moahmedamineaitsalah02@gmail.com" className="flex items-center p-4 glass-card group hover:border-primary dark:hover:border-accent transition-colors">
+            <a href="mailto:mohamedamineaitsalah02@gmail.com" className="flex items-center p-4 glass-card group hover:border-primary dark:hover:border-accent transition-colors">
               <div className="w-12 h-12 bg-primary/10 dark:bg-accent/10 rounded-full flex items-center justify-center mr-4 group-hover:scale-110 transition-transform">
                 <Mail className="text-primary dark:text-accent" size={24} />
               </div>
               <div>
                 <p className="text-sm text-slate-500 dark:text-slate-400">Email Me</p>
-                <p className="font-semibold text-slate-900 dark:text-white">moahmedamineaitsalah02@gmail.com</p>
+                <p className="font-semibold text-slate-900 dark:text-white">mohamedamineaitsalah02@gmail.com</p>
               </div>
             </a>
             
@@ -47,7 +47,7 @@ const Contact = () => {
         </div>
         
         <div className="md:col-span-3">
-          <form action="https://formsubmit.co/moahmedamineaitsalah02@gmail.com" method="POST" className="glass-card p-8">
+          <form action="https://formsubmit.co/mohamedamineaitsalah02@gmail.com" method="POST" className="glass-card p-8">
             {/* FormSubmit Configuration */}
             <input type="hidden" name="_subject" value="New submission from your portfolio!" />
             <input type="hidden" name="_captcha" value="false" />
