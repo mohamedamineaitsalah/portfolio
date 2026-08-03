@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-slate-50 text-slate-900 transition-colors duration-300 dark:bg-slate-950 dark:text-slate-50;
+    font-family: 'Inter', system-ui, sans-serif;
+  }
+}
+
+@layer components {
+  /* Glassmorphism utility */
+  .glass {
+    @apply bg-white/70 backdrop-blur-md border border-white/20 dark:bg-slate-900/70 dark:border-slate-800/50;
+  }
+  
+  .glass-card {
+    @apply bg-white/60 backdrop-blur-sm border border-slate-200 shadow-xl dark:bg-slate-900/60 dark:border-slate-800 dark:shadow-black/40 rounded-2xl;
+  }
+
+  .btn-primary {
+    @apply px-6 py-3 bg-primary text-white font-medium rounded-lg hover:bg-primary-light transition-all shadow-lg hover:shadow-primary/30 active:scale-95;
+  }
+  
+  .btn-accent {
+    @apply px-6 py-3 bg-accent text-white font-medium rounded-lg hover:bg-accent-light transition-all shadow-lg hover:shadow-accent/30 active:scale-95;
+  }
+
+  .btn-outline {
+    @apply px-6 py-3 border-2 border-primary text-primary dark:border-primary-light dark:text-primary-light font-medium rounded-lg hover:bg-primary/10 transition-all active:scale-95;
+  }
+}
