@@ -47,13 +47,20 @@ const Contact = () => {
         </div>
         
         <div className="md:col-span-3">
-          <form className="glass-card p-8">
+          <form action="https://formsubmit.co/moahmedamineaitsalah02@gmail.com" method="POST" className="glass-card p-8">
+            {/* FormSubmit Configuration */}
+            <input type="hidden" name="_subject" value="New submission from your portfolio!" />
+            <input type="hidden" name="_captcha" value="false" />
+            <input type="hidden" name="_template" value="box" />
+            
             <div className="grid md:grid-cols-2 gap-6 mb-6">
               <div>
                 <label htmlFor="name" className="block text-sm font-medium text-slate-700 dark:text-slate-300 mb-2">Your Name</label>
                 <input 
                   type="text" 
+                  name="name"
                   id="name" 
+                  required
                   className="w-full px-4 py-3 rounded-lg bg-slate-50 border border-slate-200 focus:border-primary focus:ring-2 focus:ring-primary/20 dark:bg-slate-800 dark:border-slate-700 dark:focus:border-accent dark:focus:ring-accent/20 outline-none transition-all dark:text-white"
                   placeholder="John Doe"
                 />
@@ -62,7 +69,9 @@ const Contact = () => {
                 <label htmlFor="email" className="block text-sm font-medium text-slate-700 dark:text-slate-300 mb-2">Your Email</label>
                 <input 
                   type="email" 
+                  name="email"
                   id="email" 
+                  required
                   className="w-full px-4 py-3 rounded-lg bg-slate-50 border border-slate-200 focus:border-primary focus:ring-2 focus:ring-primary/20 dark:bg-slate-800 dark:border-slate-700 dark:focus:border-accent dark:focus:ring-accent/20 outline-none transition-all dark:text-white"
                   placeholder="john@example.com"
                 />
@@ -73,7 +82,9 @@ const Contact = () => {
               <label htmlFor="subject" className="block text-sm font-medium text-slate-700 dark:text-slate-300 mb-2">Subject</label>
               <input 
                 type="text" 
+                name="_subject"
                 id="subject" 
+                required
                 className="w-full px-4 py-3 rounded-lg bg-slate-50 border border-slate-200 focus:border-primary focus:ring-2 focus:ring-primary/20 dark:bg-slate-800 dark:border-slate-700 dark:focus:border-accent dark:focus:ring-accent/20 outline-none transition-all dark:text-white"
                 placeholder="Project Inquiry"
               />
@@ -83,6 +94,8 @@ const Contact = () => {
               <label htmlFor="message" className="block text-sm font-medium text-slate-700 dark:text-slate-300 mb-2">Message</label>
               <textarea 
                 id="message" 
+                name="message"
+                required
                 rows="5"
                 className="w-full px-4 py-3 rounded-lg bg-slate-50 border border-slate-200 focus:border-primary focus:ring-2 focus:ring-primary/20 dark:bg-slate-800 dark:border-slate-700 dark:focus:border-accent dark:focus:ring-accent/20 outline-none transition-all dark:text-white resize-none"
                 placeholder="Tell me about your project..."
