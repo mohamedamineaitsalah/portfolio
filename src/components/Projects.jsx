@@ -1,4 +1,5 @@
 import React from 'react';
+import { motion } from 'framer-motion';
 import Section from './Section';
 import { ExternalLink } from 'lucide-react';
 import { FaGithub } from 'react-icons/fa';
@@ -35,7 +36,12 @@ const Projects = () => {
     <Section id="projects" title="Featured Projects" className="bg-slate-50 dark:bg-slate-950">
       <div className="grid md:grid-cols-2 gap-8">
         {projects.map((project, index) => (
-          <div key={index} className="glass-card overflow-hidden group">
+          <motion.div 
+            key={index} 
+            whileHover={{ y: -10 }}
+            transition={{ type: "spring", stiffness: 300 }}
+            className="glass-card overflow-hidden group"
+          >
             <div className="relative h-64 overflow-hidden">
               <div className="absolute inset-0 bg-primary/20 group-hover:bg-transparent transition-colors duration-300 z-10"></div>
               <img 
@@ -82,7 +88,7 @@ const Projects = () => {
                 )}
               </div>
             </div>
-          </div>
+          </motion.div>
         ))}
       </div>
     </Section>

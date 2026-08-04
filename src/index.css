@@ -7,6 +7,12 @@
     @apply bg-slate-50 text-slate-900 transition-colors duration-300 dark:bg-slate-950 dark:text-slate-50;
     font-family: 'Inter', system-ui, sans-serif;
   }
+  
+  @media (min-width: 768px) {
+    * {
+      cursor: none !important;
+    }
+  }
 }
 
 @layer components {

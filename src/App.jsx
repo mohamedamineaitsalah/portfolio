@@ -8,6 +8,7 @@ import Experience from './components/Experience';
 import Projects from './components/Projects';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
+import CustomCursor from './components/CustomCursor';
 
 function App() {
   const [darkMode, setDarkMode] = useState(false);
@@ -23,6 +24,7 @@ function App() {
 
   return (
     <div className="font-sans antialiased bg-slate-50 text-slate-900 dark:bg-slate-950 dark:text-slate-50 min-h-screen transition-colors duration-300">
+      <CustomCursor />
       <Navbar darkMode={darkMode} setDarkMode={setDarkMode} />
       <main>
         <Hero />
