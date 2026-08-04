@@ -24,7 +24,7 @@ const Projects = () => {
     {
       title: 'Laarif Plaster & Gypsum',
       description: 'A modern, responsive website for a Moroccan plaster and gypsum services company, featuring an interactive gallery, service details, and a dark mode toggle.',
-      image: '/laarif-plaster.png',
+      image: '/portfolio/laarif-plaster.png',
       technologies: ['React', 'Vite', 'Bootstrap'],
       liveLink: 'https://mohamedamineaitsalah.github.io/plaster-gypsm/',
       githubLink: 'https://github.com/mohamedamineaitsalah/plaster-gypsm'
