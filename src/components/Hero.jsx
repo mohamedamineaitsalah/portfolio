@@ -48,7 +48,7 @@ const Hero = () => {
                 Let's Talk <ArrowRight size={18} className="ml-2" />
               </motion.button>
             </Link>
-            <motion.a whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }} href="/cv.pdf" target="_blank" rel="noopener noreferrer" className="btn-outline flex items-center w-full sm:w-auto justify-center">
+            <motion.a whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }} href={`${import.meta.env.BASE_URL}cv.pdf`} download="Mohamed_Amine_Ait_Salah_CV.pdf" target="_blank" rel="noopener noreferrer" className="btn-outline flex items-center w-full sm:w-auto justify-center">
               Download CV <Download size={18} className="ml-2" />
             </motion.a>
           </motion.div>

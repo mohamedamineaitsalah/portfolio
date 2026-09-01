@@ -11,7 +11,7 @@ const CustomCursor = () => {
     };
 
     const handleMouseOver = (e) => {
-      // Check if hovering over a clickable element
+      
       if (
         e.target.tagName.toLowerCase() === 'button' ||
         e.target.tagName.toLowerCase() === 'a' ||

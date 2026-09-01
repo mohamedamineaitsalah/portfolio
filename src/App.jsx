@@ -13,7 +13,7 @@ import CustomCursor from './components/CustomCursor';
 function App() {
   const [darkMode, setDarkMode] = useState(false);
 
-  // Check system preference or localStorage on initial load
+  
   useEffect(() => {
     const isDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
     setDarkMode(isDark);

@@ -48,7 +48,7 @@ const Contact = () => {
         
         <div className="md:col-span-3">
           <form action="https://formsubmit.co/mohamedamineaitsalah02@gmail.com" method="POST" className="glass-card p-8">
-            {/* FormSubmit Configuration */}
+            
             <input type="hidden" name="_subject" value="New submission from your portfolio!" />
             <input type="hidden" name="_captcha" value="false" />
             <input type="hidden" name="_template" value="box" />
@@ -62,7 +62,7 @@ const Contact = () => {
                   id="name" 
                   required
                   className="w-full px-4 py-3 rounded-lg bg-slate-50 border border-slate-200 focus:border-primary focus:ring-2 focus:ring-primary/20 dark:bg-slate-800 dark:border-slate-700 dark:focus:border-accent dark:focus:ring-accent/20 outline-none transition-all dark:text-white"
-                  placeholder="John Doe"
+                  placeholder="your name"
                 />
               </div>
               <div>
@@ -73,7 +73,7 @@ const Contact = () => {
                   id="email" 
                   required
                   className="w-full px-4 py-3 rounded-lg bg-slate-50 border border-slate-200 focus:border-primary focus:ring-2 focus:ring-primary/20 dark:bg-slate-800 dark:border-slate-700 dark:focus:border-accent dark:focus:ring-accent/20 outline-none transition-all dark:text-white"
-                  placeholder="john@example.com"
+                  placeholder="your email"
                 />
               </div>
             </div>
@@ -86,7 +86,7 @@ const Contact = () => {
                 id="subject" 
                 required
                 className="w-full px-4 py-3 rounded-lg bg-slate-50 border border-slate-200 focus:border-primary focus:ring-2 focus:ring-primary/20 dark:bg-slate-800 dark:border-slate-700 dark:focus:border-accent dark:focus:ring-accent/20 outline-none transition-all dark:text-white"
-                placeholder="Project Inquiry"
+                placeholder="your subject"
               />
             </div>
             
@@ -98,7 +98,7 @@ const Contact = () => {
                 required
                 rows="5"
                 className="w-full px-4 py-3 rounded-lg bg-slate-50 border border-slate-200 focus:border-primary focus:ring-2 focus:ring-primary/20 dark:bg-slate-800 dark:border-slate-700 dark:focus:border-accent dark:focus:ring-accent/20 outline-none transition-all dark:text-white resize-none"
-                placeholder="Tell me about your project..."
+                placeholder="your message"
               ></textarea>
             </div>
             
