@@ -7,7 +7,7 @@ const Skills = () => {
     {
       title: 'Frontend Development',
       icon: <Layout className="text-primary dark:text-accent" size={24} />,
-      skills: ['HTML5', 'CSS3', 'JavaScript (ES6+)', 'React.js', 'Bootstrap', 'Tailwind CSS']
+      skills: ['HTML5', 'CSS3', 'JavaScript (ES6+)', 'React.js', 'Tailwind CSS']
     },
     {
       title: 'Backend Development',
@@ -22,7 +22,7 @@ const Skills = () => {
     {
       title: 'Tools & Others',
       icon: <Wrench className="text-primary dark:text-accent" size={24} />,
-      skills: ['REST APIs', 'Git & GitHub', 'Responsive Web Design', 'Authentication (JWT)', 'CRUD Applications']
+      skills: ['REST APIs', 'Git & GitHub', 'Responsive Web Design']
     }
   ];
 

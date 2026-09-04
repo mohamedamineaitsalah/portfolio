@@ -33,7 +33,7 @@ const Hero = () => {
               Full Stack Web Developer
             </h2>
             <p className="text-slate-500 dark:text-slate-400 mb-8 max-w-lg mx-auto md:mx-0 leading-relaxed">
-              Specializing in the MERN Stack. I enjoy building modern, scalable, and high-performance web applications with clean architecture and responsive user interfaces.
+              Professional Web Development graduate and MERN Stack Developer, passionate about building modern, responsive, and high-performance web applications.
             </p>
           </motion.div>
           
