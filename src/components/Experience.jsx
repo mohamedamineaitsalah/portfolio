@@ -37,10 +37,11 @@ const Experience = () => {
       degree: 'Professional License - Web Development',
       institution: 'SAGIM',
       location: 'Marrakesh, Morocco',
-      period: 'Dec 2025 - Present'
+      period: '2026'
     },
     {
-      degree: 'Bachelor in Economics Student',
+      degree: 'DEUG in Economics',
+      subtitle: 'Currently pursuing a Bachelor\'s degree in Economics',
       institution: 'Polydisciplinary Faculty of Safi',
       location: 'Safi, Morocco',
       period: 'Sep 2023 - Present'
@@ -125,6 +126,7 @@ const Experience = () => {
                     <span>{edu.period}</span>
                   </div>
                   <h4 className="font-bold text-lg text-slate-900 dark:text-white">{edu.degree}</h4>
+                  {edu.subtitle && <p className="text-slate-500 dark:text-slate-400 text-sm mb-1">{edu.subtitle}</p>}
                   <div className="text-primary font-medium">{edu.institution}</div>
                   <div className="text-slate-500 text-sm">{edu.location}</div>
                 </div>
