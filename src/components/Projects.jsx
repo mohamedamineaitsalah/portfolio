@@ -7,17 +7,17 @@ import { FaGithub } from 'react-icons/fa';
 const Projects = () => {
   const projects = [
     {
-      title: 'MOHAMED AM - Project 1',
+      title: 'TODO LIST',
       description: 'A professional website to showcase projects, skills, and resume to potential clients and recruiters.',
-      image: 'https://images.unsplash.com/photo-1555066931-4365d14bab8c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+      image: `${import.meta.env.BASE_URL}TODOLIST.png`,
       technologies: ['HTML5', 'CSS3', 'JavaScript'],
       liveLink: 'https://mohamedamineaitsalah.github.io/MOHAMED_AM/',
       githubLink: 'https://github.com/mohamedamineaitsalah/MOHAMED_AM'
     },
     {
-      title: 'Personal Portfolio Prototype',
+      title: 'Professional Services to Grow Your Business',
       description: 'An early version of a professional website to showcase projects, skills, and resume to potential clients and recruiters.',
-      image: 'https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+      image: `${import.meta.env.BASE_URL}SERVICES.png`,
       technologies: ['HTML5', 'CSS3', 'JavaScript'],
       liveLink: 'https://mohamedamineaitsalah.github.io/mohamedam_SITEWEB/',
       githubLink: 'https://github.com/mohamedamineaitsalah/mohamedam_SITEWEB'
@@ -25,7 +25,7 @@ const Projects = () => {
     {
       title: 'Laarif Plaster & Gypsum',
       description: 'A modern, responsive website for a Moroccan plaster and gypsum services company, featuring an interactive gallery, service details, and a dark mode toggle.',
-      image: '/portfolio/laarif-plaster.png',
+      image: `${import.meta.env.BASE_URL}laarif-plaster.png`,
       technologies: ['React', 'Vite', 'Bootstrap'],
       liveLink: 'https://mohamedamineaitsalah.github.io/plaster-gypsm/',
       githubLink: 'https://github.com/mohamedamineaitsalah/plaster-gypsm'
