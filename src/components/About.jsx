@@ -45,7 +45,7 @@ const About = () => {
                 </div>
                 <div>
                   <p className="text-xs text-slate-500 dark:text-slate-400">{detail.label}</p>
-                  <p className="text-sm font-semibold text-slate-900 dark:text-slate-100 truncate w-40 sm:w-auto" title={detail.value}>{detail.value}</p>
+                  <p className="text-sm font-semibold text-slate-900 dark:text-slate-100 break-all sm:break-normal" title={detail.value}>{detail.value}</p>
                 </div>
               </div>
             ))}

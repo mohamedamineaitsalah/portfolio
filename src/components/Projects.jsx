@@ -29,6 +29,14 @@ const Projects = () => {
       technologies: ['React', 'Vite', 'Bootstrap'],
       liveLink: 'https://mohamedamineaitsalah.github.io/plaster-gypsm/',
       githubLink: 'https://github.com/mohamedamineaitsalah/plaster-gypsm'
+    },
+    {
+      title: 'WebNext Agency',
+      description: 'A modern, sleek web agency landing page built with Next.js featuring smooth animations, a dark premium design, service showcases, and a responsive layout.',
+      image: `${import.meta.env.BASE_URL}webnex.png`,
+      technologies: ['Next.js', 'React', 'Tailwind CSS'],
+      liveLink: 'https://webnext-agency.vercel.app/',
+      githubLink: '#'
     }
   ];
 
